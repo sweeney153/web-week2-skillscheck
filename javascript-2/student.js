@@ -14,7 +14,7 @@ var age = 31;
 //////////////////STEP 3////////////////////
 //Create a variable called name that is your name as a string
 
-var age = 'Sean';
+var name = 'Sean';
 
 //////////////////STEP 4////////////////////
 //Create a variable called phrase that is initially set as an empty string
@@ -28,7 +28,7 @@ var phrase = '';
         phrase = 'I love code'
     } else {
         phrase = 'I do not love to code'
-    }
+    };
 
 
 //////////////////Wrap Up////////////////////

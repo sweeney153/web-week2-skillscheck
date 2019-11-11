@@ -1,40 +1,122 @@
 * {
     margin: 0;
-    padding: 0;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(8, 8, 8);
+} 
+ 
+.container {
+    width: 85%;
+    height:100vh;
+    margin: 0 auto;
+    justify-content: flex-start;
+    background-color:white;
 }
 
 header {
-    width: 80%;
+    width: 100%;
     height: 5vh;
-    margin: 0 auto;
-    background-color: gray;
+    background-color:rgb(109, 107, 107);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.left-side {
-    width: 20%;
-    height: 5vh;
-    display: flex;
+.logo {
+    position: relative;
+    padding: 0 0 0 40px
 }
 
-p {
+h3 {
     color: white;
-    margin: auto;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: inline;
+}
 
+.nav-bar li{
+    list-style-type: none;
+    font-size: 11px;
+    color: white;
+    padding: 0 40px 0 0;
+    letter-spacing: .05em;
+    float: right;
+}
 
-/* .container {
-    width: 30%;
-    height: 4vh;
-    background-color: blue;
-} */
+.section-1 {
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    text-align: center;
+} 
 
-.right
+h1 {
+    color: yellow;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 70px;
+    font-size: 40px;
+}
 
+.section-2 {
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square {
+    width: 20%;
+    height: 18vh;
+    background-color: green;
+    display: flex;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.section-3 {
+    width: 100%;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rectangle {
+    width: 45%;
+    height: 15vh;
+    background-color: orange;
+    display: flex;
+}
+
+.section-4 {
+    width:100%;
+    height: 25vh;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+
+.text-4 {
+    width: 40%;
+}
+
+.squirrel img{
+    float: right;
+}
+
+footer {
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(68, 68, 68);
+}

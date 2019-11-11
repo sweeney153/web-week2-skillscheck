@@ -38,8 +38,14 @@ function removeItem(index){
 //Create a function called 'checkGroceryCount'. Inside of the function check the total number of groceries you need to get using .length. Using an else/if statement, check if the number is greater than or equal to 5, return the string 'That looks like a big trip' from the function. If the number of groceries is equal to one, return the string '1 item'. For numbers between 1 and 5, return the string 'NUMBER items' with number replacing the number of items
 
 function checkGroceryCount(){
-    groceries.length
-}
+    if (groceries.length >= 5) {
+        return 'That looks like a big trip';
+    } else if (groceries.length === 1) {
+        return '1 item';
+    } else {
+        return 'NUMBER items'
+    }
+};
 
 //////////////////STEP 6////////////////////
 // Refresh the index.html page. You should now see the same thing you saw when you first loaded the page but you should now be able to add items to your grocery list with a dynamic total showing. If you double click on an item, it should remove that item
